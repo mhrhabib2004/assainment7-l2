@@ -13,4 +13,5 @@ INSERT INTO customers (name, email, joined_date) VALUES
 ('Bob', 'bob@email.com', '2022-05-15'),
 ('Charlie', 'charlie@email.com', '2023-06-20');
 
+SELECT * FROM customers
 
