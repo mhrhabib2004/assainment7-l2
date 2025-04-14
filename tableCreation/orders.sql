@@ -6,3 +6,9 @@ CREATE TABLE orders (
     quantity INTEGER CHECK (quantity > 0),
     order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 );
+
+-- Insert data into orders table
+INSERT INTO orders (customer_id, book_id, quantity, order_date) VALUES
+(1, 2, 1, '2024-03-10'),
+(2, 1, 1, '2024-02-20'),
+(1, 3, 2, '2024-03-05');
