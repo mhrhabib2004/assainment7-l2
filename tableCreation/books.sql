@@ -16,3 +16,4 @@ INSERT INTO books (title, author, price, stock, published_year) VALUES
 ('Refactoring', 'Martin Fowler', 50.00, 3, 1999),
 ('Database Design Principles', 'Jane Smith', 20.00, 0, 2018);
 
+SELECT * FROM books
